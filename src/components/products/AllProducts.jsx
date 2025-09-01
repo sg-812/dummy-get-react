@@ -32,7 +32,7 @@ const AllProducts = () => {
     } 
   return (
     <div>
-        <h2>All Products</h2>
+        <h2>View All Products</h2>
         {
             products.map(prod=>(
                 <React.Fragment key={prod.id}>

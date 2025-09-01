@@ -7,6 +7,7 @@ const Routing = () => {
   return (
     <BrowserRouter>
     <Routes>
+      {/* default routing */}
         <Route path="/" element={<AllProducts/>} />
         <Route path="/details/:prodId" element={<SingleProducts/>} />
     </Routes>
